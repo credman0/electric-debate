@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electric Debate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <script src="../dist/lib/jquery-3.4.1.js"></script>
+  <script src="master-editor-controller.js"></script>
+  <body class="master-editor-pane">
+    <div class="editor-controls">
+        <input type="checkbox" id="collaboration" name="collaboration" value="collaboration" checked>
+        <label for="collaboration">Collaboration enabled</label>
+    </div>
+    <iframe src="card-editor.html" id="currentEditorPane" class="editor-pane" frameBorder="0"></iframe>
+  </body>
+</html>
